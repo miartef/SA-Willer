@@ -1,38 +1,41 @@
-.App {
+body{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.areaLogin-cadastro{
+  margin: auto;
+  height: 63vh;
+  width: 40%;
+  border: solid 1px black;
+  display: block;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tituloLogin{
+  margin-top: 5vh;
+}
+
+.InputDados{
+  width: 80%;
+  height: 6vh;
+  margin-top: 4%;
+}
+
+.areaBotoes{
+  margin-top: 4vh;
+}
+
+.botaoEntrarLogin-cadastro{
+  border: solid 1px black; 
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  height: 5vh;
+  width: 40%;
+  margin-top: 1vh;
 }
